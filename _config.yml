@@ -1,0 +1,11 @@
+title: What's On in Dublin
+description: Upcoming events in Dublin, powered by Ticketmaster
+url: ""
+exclude:
+  - fetch_events.py
+  - pyproject.toml
+  - uv.lock
+  - .python-version
+  - .env
+  - .env.example
+  - data/

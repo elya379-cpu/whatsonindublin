@@ -1,0 +1,57 @@
+---
+layout: default
+title: What's On in Dublin
+---
+
+<header>
+  <h1>What's On in Dublin</h1>
+  <p class="subtitle">Updated {{ site.data.events.generated_at | date: "%d %b %Y" }} &middot; {{ site.data.events.count }} events</p>
+</header>
+
+<main>
+  <div class="events-grid">
+    {% for event in site.data.events.events %}
+    <article class="event-card">
+      {% if event.image %}
+      <img src="{{ event.image }}" alt="{{ event.name | escape }}" loading="lazy">
+      {% else %}
+      <div class="no-image">No image</div>
+      {% endif %}
+
+      <div class="card-body">
+        <h2>{{ event.name }}</h2>
+
+        <p class="card-meta">
+          {% if event.date %}{{ event.date | date: "%a %-d %b %Y" }}{% endif %}
+          {% if event.time %}&middot; {{ event.time | slice: 0, 5 }}{% endif %}
+        </p>
+
+        {% if event.venue.name %}
+        <p class="card-venue">{{ event.venue.name }}</p>
+        {% endif %}
+
+        {% assign genre = event.classifications[0].genre %}
+        {% if genre and genre != "Undefined" %}
+        <span class="genre-tag">{{ genre }}</span>
+        {% endif %}
+
+        {% if event.price %}
+        <p class="card-price">
+          {% if event.price.min == event.price.max %}
+            &euro;{{ event.price.min }}
+          {% else %}
+            &euro;{{ event.price.min }} &ndash; &euro;{{ event.price.max }}
+          {% endif %}
+        </p>
+        {% else %}
+        <p class="card-price">Check site for prices</p>
+        {% endif %}
+
+        {% if event.url %}
+        <a class="card-link" href="{{ event.url }}" target="_blank" rel="noopener">Get tickets</a>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</main>
