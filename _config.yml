@@ -1,6 +1,5 @@
 title: What's On in Dublin
 description: Upcoming events in Dublin, powered by Ticketmaster
-url: ""
 exclude:
   - fetch_events.py
   - pyproject.toml
@@ -9,3 +8,5 @@ exclude:
   - .env
   - .env.example
   - data/
+  - Gemfile
+  - Gemfile.lock
