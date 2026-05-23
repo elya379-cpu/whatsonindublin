@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T15:59:12.936960+00:00",
+  "generated_at": "2026-05-23T11:00:18.018606+00:00",
   "count": 500,
   "events": [
     {
@@ -25,189 +25,13 @@
       ]
     },
     {
-      "id": "1AvOZ_6GknmVrFc",
-      "name": "Rachel Galvo",
-      "url": "https://www.ticketmaster.ie/rachel-galvo-dublin-22-05-2026/event/1800647AAED1E22D",
-      "image": "https://s1.ticketm.net/dam/a/7f6/b0edd568-28dd-45a1-8e92-52f3e61857f6_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-      "date": "2026-05-22",
-      "time": "19:00:00",
-      "status": "onsale",
-      "venue": {
-        "name": "Ambassador Theatre",
-        "address": "Oconnell Street",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/ambassador-theatre-tickets-dublin/venue/198292"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Arts & Theatre",
-          "genre": "Comedy"
-        }
-      ]
-    },
-    {
-      "id": "1kkZv0oaGA5bHA0",
-      "name": "Favourite Worst Nightmare: the Ultimate Tribute To Arctic Monkeys",
-      "url": "https://www.ticketmaster.ie/favourite-worst-nightmare-the-ultimate-tribute-dublin-22-05-2026/event/180064449B63C164",
-      "image": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_16_9.jpg",
-      "date": "2026-05-22",
-      "time": "19:00:00",
-      "status": "onsale",
-      "venue": {
-        "name": "Green Room at The Academy",
-        "address": "The Academy, 57 Middle Abbey Street",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/green-room-at-the-academy-tickets-dublin/venue/197714"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Music",
-          "genre": "Undefined"
-        }
-      ]
-    },
-    {
-      "id": "1FkZvNGa7tZ7GeGk",
-      "name": "Waitress",
-      "url": "https://www.ticketmaster.ie/waitress-dublin-22-05-2026/event/180063309129B1B5",
-      "image": "https://s1.ticketm.net/dam/a/aee/8469e7ee-f8a4-4788-addf-7d2a138bdaee_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-05-22",
-      "time": "19:30:00",
-      "status": "onsale",
-      "venue": {
-        "name": "Bord Gais Energy Theatre",
-        "address": "Grand Canal Square",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/bord-gais-energy-theatre-tickets-dublin/venue/198867"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Arts & Theatre",
-          "genre": "Theatre"
-        }
-      ]
-    },
-    {
-      "id": "16vOZ_kpZG7mAt3",
-      "name": "duendita",
-      "url": "https://www.ticketmaster.ie/duendita-dublin-22-05-2026/event/1800646580B85A52",
-      "image": "https://s1.ticketm.net/dam/a/ce8/86c04c74-a138-4514-9422-3401a9486ce8_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-      "date": "2026-05-22",
-      "time": "20:00:00",
-      "status": "onsale",
-      "venue": {
-        "name": "Upstairs At Whelans",
-        "address": "Wexford Street",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/upstairs-at-whelans-tickets-dublin/venue/198706"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Music",
-          "genre": "R&B"
-        }
-      ]
-    },
-    {
-      "id": "1AbZk18GkeEfKdV",
-      "name": "The Fureys",
-      "url": "https://www.ticketmaster.ie/the-fureys-dublin-22-05-2026/event/18006290A75130F4",
-      "image": "https://s1.ticketm.net/dam/a/8e2/2e4e13c3-9bf5-4652-921d-4ec439baf8e2_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-05-22",
-      "time": "20:00:00",
-      "status": "onsale",
-      "venue": {
-        "name": "Vicar Street",
-        "address": "58 Thomas Street",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/vicar-street-tickets-dublin/venue/198259"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Music",
-          "genre": "Folk"
-        }
-      ]
-    },
-    {
-      "id": "1AbZkCdGkePX7W4",
-      "name": "Kaitlin Butts",
-      "url": "https://www.ticketmaster.ie/kaitlin-butts-dublin-22-05-2026/event/18006383A5F84F55",
-      "image": "https://s1.ticketm.net/dam/a/01c/9f4f80fa-92ad-4fdb-acec-fd095c86e01c_TABLET_LANDSCAPE_16_9.jpg",
-      "date": "2026-05-22",
-      "time": "20:00:00",
-      "status": "onsale",
-      "venue": {
-        "name": "Whelans",
-        "address": "25 Wexford St",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/whelans-tickets-dublin/venue/198293"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Music",
-          "genre": "Country"
-        }
-      ]
-    },
-    {
-      "id": "1AbZkuEGkeVexbd",
-      "name": "The Nightingales",
-      "url": "https://www.ticketmaster.ie/the-nightingales-dublin-22-05-2026/event/18006367B40A2603",
-      "image": "https://s1.ticketm.net/dam/a/31a/be5951a2-ff93-423a-9155-cd69933ba31a_TABLET_LANDSCAPE_16_9.jpg",
-      "date": "2026-05-22",
-      "time": "20:00:00",
-      "status": "onsale",
-      "venue": {
-        "name": "The Workmans Club",
-        "address": "10 Wellington Quay",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/the-workmans-club-tickets-dublin/venue/198984"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Music",
-          "genre": "Rock"
-        }
-      ]
-    },
-    {
-      "id": "LvZ18Qpu0z3pPWZZlJKZ4",
-      "name": "Kíla - Killiney - May 22",
-      "url": "https://www.universe.com/events/kila-killiney-may-22-tickets-W1RTDL?ref=ticketmaster",
-      "image": "https://s1.ticketm.net/dam/c/779/d4bc7e11-1b50-4aa4-a2be-0a21569f5779_106531_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-      "date": "2026-05-22",
-      "time": "20:30:00",
-      "status": "onsale",
-      "venue": {
-        "name": "Fitzpatrick Castle Hotel",
-        "address": "Killiney Hill Road",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/fitzpatrick-castle-hotel-tickets-dublin/venue/199515"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Music",
-          "genre": "Folk"
-        }
-      ]
-    },
-    {
       "id": "17kZvxG61hqtUVC",
       "name": "Peppa Pig's Big Family Show",
       "url": "https://www.ticketmaster.ie/peppa-pigs-big-family-show-dublin-23-05-2026/event/180062A6DDA76D0E",
       "image": "https://s1.ticketm.net/dam/a/b57/5b0b68ec-673f-44d6-b1f9-359e8df8fb57_TABLET_LANDSCAPE_16_9.jpg",
       "date": "2026-05-23",
       "time": "10:00:00",
-      "status": "onsale",
+      "status": "offsale",
       "venue": {
         "name": "3Olympia Theatre",
         "address": "73 Dame Street",
@@ -5503,6 +5327,28 @@
       ]
     },
     {
+      "id": "LvZ18Q-eemIZ_ZZvOKs0w",
+      "name": "Electric Six",
+      "url": "https://www.universe.com/events/electric-six-tickets-VY2JR4?ref=ticketmaster",
+      "image": "https://s1.ticketm.net/dam/a/2bd/15d8cb00-96dc-4569-9065-7e0bd80652bd_20321_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-06-21",
+      "time": "18:00:00",
+      "status": "onsale",
+      "venue": {
+        "name": "Gaiety Theatre",
+        "address": "South King Street",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/gaiety-theatre-tickets-dublin/venue/198240"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Music",
+          "genre": "Rock"
+        }
+      ]
+    },
+    {
       "id": "1kkZv0_EGA52SMF",
       "name": "Jo Koy: Just Being Koy Tour",
       "url": "https://www.ticketmaster.ie/jo-koy-just-being-koy-tour-dublin-21-06-2026/event/180064667B3F3DC8",
@@ -10566,7 +10412,7 @@
       "id": "1AbZk3fGkenaq84",
       "name": "Vio-lence",
       "url": "https://www.ticketmaster.ie/violence-dublin-02-08-2026/event/18006494AA25D415",
-      "image": "https://s1.ticketm.net/dam/a/b20/8183f148-46f8-4cb6-bc16-dd3347575b20_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "image": "https://s1.ticketm.net/dam/a/b20/8183f148-46f8-4cb6-bc16-dd3347575b20_RETINA_LANDSCAPE_16_9.jpg",
       "date": "2026-08-02",
       "time": "19:00:00",
       "status": "onsale",
@@ -10999,6 +10845,160 @@
         {
           "segment": "Arts & Theatre",
           "genre": "Dance"
+        }
+      ]
+    },
+    {
+      "id": "16bZkCo-yZA8GGeC",
+      "name": "Dublin Horse Show 2026 - Seated Tickets",
+      "url": "https://www.ticketmaster.ie/dublin-horse-show-2026-seated-tickets-dublin-07-08-2026/event/18006391879FBB1D",
+      "image": "https://s1.ticketm.net/dam/a/1bb/7ea9f86d-6e52-47a0-8a9d-acd9a89391bb_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "date": "2026-08-07",
+      "time": "09:00:00",
+      "status": "onsale",
+      "venue": {
+        "name": "RDS (Royal Dublin Society)",
+        "address": "Anglesea Road",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/rds-royal-dublin-society-tickets-dublin/venue/197051"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Sports",
+          "genre": "Equestrian"
+        }
+      ]
+    },
+    {
+      "id": "1AvOZbzGkTEBTUE",
+      "name": "Dublin Horse Show 2026 - General Admission Tickets",
+      "url": "https://www.ticketmaster.ie/dublin-horse-show-2026-general-admission-dublin-07-08-2026/event/1800638FE7EBFDA7",
+      "image": "https://s1.ticketm.net/dam/a/1bb/7ea9f86d-6e52-47a0-8a9d-acd9a89391bb_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "date": "2026-08-07",
+      "time": "09:00:00",
+      "status": "onsale",
+      "venue": {
+        "name": "RDS (Royal Dublin Society)",
+        "address": "Anglesea Road",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/rds-royal-dublin-society-tickets-dublin/venue/197051"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Sports",
+          "genre": "Equestrian"
+        }
+      ]
+    },
+    {
+      "id": "1kkZvN39GAC2nn5",
+      "name": "Riverdance 30 - The New Generation VIP",
+      "url": "https://www.ticketmaster.ie/riverdance-30-the-new-generation-vip-dublin-07-08-2026/event/180063497E3EAA8B",
+      "image": "https://s1.ticketm.net/dam/a/30c/fc3f4321-9589-445c-9e6a-ce7024e8530c_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "date": "2026-08-07",
+      "time": "18:30:00",
+      "status": "onsale",
+      "venue": {
+        "name": "Gaiety Theatre",
+        "address": "South King Street",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/gaiety-theatre-tickets-dublin/venue/198240"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Arts & Theatre",
+          "genre": "Dance"
+        }
+      ]
+    },
+    {
+      "id": "1AbZkukGkeInisr",
+      "name": "The Bodyguard",
+      "url": "https://www.ticketmaster.ie/the-bodyguard-dublin-07-08-2026/event/18006346A8AACC5E",
+      "image": "https://s1.ticketm.net/dam/a/ebc/10b56205-f467-4c83-b6be-edd4a30c5ebc_SOURCE",
+      "date": "2026-08-07",
+      "time": "19:30:00",
+      "status": "onsale",
+      "venue": {
+        "name": "Bord Gais Energy Theatre",
+        "address": "Grand Canal Square",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/bord-gais-energy-theatre-tickets-dublin/venue/198867"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Arts & Theatre",
+          "genre": "Theatre"
+        }
+      ]
+    },
+    {
+      "id": "1AvOZbVGkDqhjFi",
+      "name": "Riverdance 30 - The New Generation",
+      "url": "https://www.ticketmaster.ie/riverdance-30-the-new-generation-dublin-07-08-2026/event/1800634EDD6DC22C",
+      "image": "https://s1.ticketm.net/dam/a/30c/fc3f4321-9589-445c-9e6a-ce7024e8530c_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "date": "2026-08-07",
+      "time": "19:30:00",
+      "status": "onsale",
+      "venue": {
+        "name": "Gaiety Theatre",
+        "address": "South King Street",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/gaiety-theatre-tickets-dublin/venue/198240"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Arts & Theatre",
+          "genre": "Dance"
+        }
+      ]
+    },
+    {
+      "id": "16vOZbyk6G7IliJ",
+      "name": "Dublin Horse Show 2026 - Seated Tickets",
+      "url": "https://www.ticketmaster.ie/dublin-horse-show-2026-seated-tickets-dublin-08-08-2026/event/1800639187A2BB26",
+      "image": "https://s1.ticketm.net/dam/a/1bb/7ea9f86d-6e52-47a0-8a9d-acd9a89391bb_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "date": "2026-08-08",
+      "time": "09:00:00",
+      "status": "onsale",
+      "venue": {
+        "name": "RDS (Royal Dublin Society)",
+        "address": "Anglesea Road",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/rds-royal-dublin-society-tickets-dublin/venue/197051"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Sports",
+          "genre": "Equestrian"
+        }
+      ]
+    },
+    {
+      "id": "1AvOZbzGkTEDLUB",
+      "name": "Dublin Horse Show 2026 - General Admission Tickets",
+      "url": "https://www.ticketmaster.ie/dublin-horse-show-2026-general-admission-dublin-08-08-2026/event/1800638FE7EDFDBA",
+      "image": "https://s1.ticketm.net/dam/a/1bb/7ea9f86d-6e52-47a0-8a9d-acd9a89391bb_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "date": "2026-08-08",
+      "time": "09:00:00",
+      "status": "onsale",
+      "venue": {
+        "name": "RDS (Royal Dublin Society)",
+        "address": "Anglesea Road",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/rds-royal-dublin-society-tickets-dublin/venue/197051"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Sports",
+          "genre": "Equestrian"
         }
       ]
     }
