@@ -1,95 +1,7 @@
 {
-  "generated_at": "2026-05-25T16:06:42.272190+00:00",
+  "generated_at": "2026-05-26T17:48:00.768412+00:00",
   "count": 500,
   "events": [
-    {
-      "id": "1AbZkufGkd9bc5x",
-      "name": "Tinariwen",
-      "url": "https://www.ticketmaster.ie/tinariwen-dublin-25-05-2026/event/18006354D762D2E2",
-      "image": "https://s1.ticketm.net/dam/a/242/0aaf3612-5905-4087-b148-e00f1cd22242_RETINA_LANDSCAPE_16_9.jpg",
-      "date": "2026-05-25",
-      "time": "19:00:00",
-      "status": "onsale",
-      "venue": {
-        "name": "3Olympia Theatre",
-        "address": "73 Dame Street",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/3olympia-theatre-tickets-dublin/venue/198239"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Music",
-          "genre": "Blues"
-        }
-      ]
-    },
-    {
-      "id": "1AvOZbVGklQCrxW",
-      "name": "Clutch",
-      "url": "https://www.ticketmaster.ie/clutch-dublin-25-05-2026/event/1800634ADA39E8BD",
-      "image": "https://s1.ticketm.net/dam/a/dba/d0b904b9-b9a6-454e-b11f-6dbcaa457dba_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-      "date": "2026-05-25",
-      "time": "19:00:00",
-      "status": "onsale",
-      "venue": {
-        "name": "The Academy",
-        "address": "57 Middle Abbey Street",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/the-academy-tickets-dublin/venue/198465"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Music",
-          "genre": "Metal"
-        }
-      ]
-    },
-    {
-      "id": "1AbZkCAGkeljsHC",
-      "name": "Rodrigo y Gabriela",
-      "url": "https://www.ticketmaster.ie/rodrigo-y-gabriela-dublin-25-05-2026/event/18006385AB731F0E",
-      "image": "https://s1.ticketm.net/dam/a/74b/c125ca43-48d3-4da7-a314-770a103c774b_TABLET_LANDSCAPE_16_9.jpg",
-      "date": "2026-05-25",
-      "time": "20:00:00",
-      "status": "onsale",
-      "venue": {
-        "name": "National Stadium",
-        "address": "South Circular Road",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/national-stadium-tickets-dublin/venue/198253"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Music",
-          "genre": "Rock"
-        }
-      ]
-    },
-    {
-      "id": "1AbZkoJGkeOhG-L",
-      "name": "Alan Stivell - Liberty",
-      "url": "https://www.ticketmaster.ie/alan-stivell-liberty-dublin-25-05-2026/event/18006466A06CC85F",
-      "image": "https://s1.ticketm.net/dam/a/cac/84d6f82e-c775-4e04-b530-f4173ae72cac_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-      "date": "2026-05-25",
-      "time": "20:00:00",
-      "status": "onsale",
-      "venue": {
-        "name": "Ambassador Theatre",
-        "address": "Oconnell Street",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/ambassador-theatre-tickets-dublin/venue/198292"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Music",
-          "genre": "World"
-        }
-      ]
-    },
     {
       "id": "1AbZk8gGkd3ouno",
       "name": "Barns Courtney",
@@ -10585,6 +10497,28 @@
       ]
     },
     {
+      "id": "17kZv0G65nUKVc0",
+      "name": "Limehouse Lizzy - Tribute To Thin Lizzy",
+      "url": "https://www.ticketmaster.ie/limehouse-lizzy-tribute-to-thin-lizzy-dublin-08-08-2026/event/180064BAB64F4B64",
+      "image": "https://s1.ticketm.net/dam/a/7a4/e82e2a7a-edcf-4a9e-978a-61c2981b47a4_232561_RETINA_PORTRAIT_16_9.jpg",
+      "date": "2026-08-08",
+      "time": "20:00:00",
+      "status": "onsale",
+      "venue": {
+        "name": "Whelans",
+        "address": "25 Wexford St",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/whelans-tickets-dublin/venue/198293"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Music",
+          "genre": "Undefined"
+        }
+      ]
+    },
+    {
       "id": "16vOZbyk6G7t5it",
       "name": "Dublin Horse Show 2026 - Seated Tickets",
       "url": "https://www.ticketmaster.ie/dublin-horse-show-2026-seated-tickets-dublin-09-08-2026/event/1800639187A4BB29",
@@ -10999,6 +10933,72 @@
         {
           "segment": "Arts & Theatre",
           "genre": "Theatre"
+        }
+      ]
+    },
+    {
+      "id": "17kZv0G61pxLGSD",
+      "name": "Leon Majcen",
+      "url": "https://www.ticketmaster.ie/leon-majcen-dublin-14-08-2026/event/180064A5A27CCCFB",
+      "image": "https://s1.ticketm.net/dam/a/57a/6fa1c911-14c5-4c69-88c1-8748ae41357a_TABLET_LANDSCAPE_16_9.jpg",
+      "date": "2026-08-14",
+      "time": "20:00:00",
+      "status": "onsale",
+      "venue": {
+        "name": "Upstairs At Whelans",
+        "address": "Wexford Street",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/upstairs-at-whelans-tickets-dublin/venue/198706"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Music",
+          "genre": "Folk"
+        }
+      ]
+    },
+    {
+      "id": "1AvOZbwGkwd2ZsO",
+      "name": "Annie (Touring)",
+      "url": "https://www.ticketmaster.ie/annie-touring-dublin-15-08-2026/event/1800632C833C0C60",
+      "image": "https://s1.ticketm.net/dam/a/787/a42d6781-bdc6-4adc-a757-a3f6b6172787_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "date": "2026-08-15",
+      "time": "14:30:00",
+      "status": "onsale",
+      "venue": {
+        "name": "Bord Gais Energy Theatre",
+        "address": "Grand Canal Square",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/bord-gais-energy-theatre-tickets-dublin/venue/198867"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Arts & Theatre",
+          "genre": "Theatre"
+        }
+      ]
+    },
+    {
+      "id": "1AvOZbVGkDqOGa_",
+      "name": "Riverdance 30 - The New Generation",
+      "url": "https://www.ticketmaster.ie/riverdance-30-the-new-generation-dublin-15-08-2026/event/1800634EDD80C259",
+      "image": "https://s1.ticketm.net/dam/a/30c/fc3f4321-9589-445c-9e6a-ce7024e8530c_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "date": "2026-08-15",
+      "time": "15:00:00",
+      "status": "onsale",
+      "venue": {
+        "name": "Gaiety Theatre",
+        "address": "South King Street",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/gaiety-theatre-tickets-dublin/venue/198240"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Arts & Theatre",
+          "genre": "Dance"
         }
       ]
     }
