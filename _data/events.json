@@ -1,183 +1,7 @@
 {
-  "generated_at": "2026-05-27T17:43:55.305014+00:00",
+  "generated_at": "2026-05-28T17:52:42.244592+00:00",
   "count": 500,
   "events": [
-    {
-      "id": "LvZ18QhRXA3Ro98ZHI-u4",
-      "name": "AIM Connects 2026",
-      "url": "https://www.universe.com/events/aim-connects-2026-tickets-BGQVXY?ref=ticketmaster",
-      "image": "https://s1.ticketm.net/dam/c/f51/ee785ed6-f806-4195-98f4-69f67e09df51_106201_RETINA_LANDSCAPE_16_9.jpg",
-      "date": "2026-05-27",
-      "time": "09:30:00",
-      "status": "offsale",
-      "venue": {
-        "name": "Whelans",
-        "address": "25 Wexford St",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/whelans-tickets-dublin/venue/198293"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Undefined",
-          "genre": null
-        }
-      ]
-    },
-    {
-      "id": "16vOZ_d36G7MV15",
-      "name": "Sugar: Love You Even Still Tour",
-      "url": "https://www.ticketmaster.ie/sugar-love-you-even-still-tour-dublin-27-05-2026/event/1800643487DF428B",
-      "image": "https://s1.ticketm.net/dam/a/2b1/3fb10bfe-7ae0-4c48-9a83-06488f0a82b1_TABLET_LANDSCAPE_16_9.jpg",
-      "date": "2026-05-27",
-      "time": "18:30:00",
-      "status": "offsale",
-      "venue": {
-        "name": "National Stadium",
-        "address": "South Circular Road",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/national-stadium-tickets-dublin/venue/198253"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Music",
-          "genre": "Rock"
-        }
-      ]
-    },
-    {
-      "id": "1AbZkCdGkd-AyQP",
-      "name": "Benjamin Steer",
-      "url": "https://www.ticketmaster.ie/benjamin-steer-dublin-27-05-2026/event/18006383E11796A5",
-      "image": "https://s1.ticketm.net/dam/a/42f/ef303770-85c5-4c96-b960-54507a62a42f_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-05-27",
-      "time": "19:00:00",
-      "status": "onsale",
-      "venue": {
-        "name": "Green Room at The Academy",
-        "address": "The Academy, 57 Middle Abbey Street",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/green-room-at-the-academy-tickets-dublin/venue/197714"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Music",
-          "genre": "Pop"
-        }
-      ]
-    },
-    {
-      "id": "1AbZkobGkdkVXh7",
-      "name": "Fakemink : a Terrible Beauty",
-      "url": "https://www.ticketmaster.ie/fakemink-a-terrible-beauty-dublin-27-05-2026/event/18006458C6D3E6C4",
-      "image": "https://s1.ticketm.net/dam/a/cc6/5a39b0c0-cf2a-4079-b40c-a7ed1f59ecc6_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-      "date": "2026-05-27",
-      "time": "19:00:00",
-      "status": "onsale",
-      "venue": {
-        "name": "The Academy",
-        "address": "57 Middle Abbey Street",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/the-academy-tickets-dublin/venue/198465"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Music",
-          "genre": "Hip-Hop/Rap"
-        }
-      ]
-    },
-    {
-      "id": "1AvOZbUGkDbKXty",
-      "name": "Florence Road",
-      "url": "https://www.ticketmaster.ie/florence-road-dublin-27-05-2026/event/1800636ED84FEA79",
-      "image": "https://s1.ticketm.net/dam/a/0fb/513a646b-e26f-42a3-9f79-28f00d5280fb_SOURCE",
-      "date": "2026-05-27",
-      "time": "19:00:00",
-      "status": "onsale",
-      "venue": {
-        "name": "3Olympia Theatre",
-        "address": "73 Dame Street",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/3olympia-theatre-tickets-dublin/venue/198239"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Music",
-          "genre": "Rock"
-        }
-      ]
-    },
-    {
-      "id": "17kZvxG65QzmblM",
-      "name": "Irish National Opera - Norma",
-      "url": "https://www.ticketmaster.ie/irish-national-opera-norma-dublin-27-05-2026/event/180062B6B8B98AF7",
-      "image": "https://s1.ticketm.net/dam/a/1a2/9fff76dc-05b6-4716-b9c0-9742b0afb1a2_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-05-27",
-      "time": "19:30:00",
-      "status": "onsale",
-      "venue": {
-        "name": "Gaiety Theatre",
-        "address": "South King Street",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/gaiety-theatre-tickets-dublin/venue/198240"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Arts & Theatre",
-          "genre": "Opera"
-        }
-      ]
-    },
-    {
-      "id": "16vOZ_AxbG7Sni4",
-      "name": "Mudrat",
-      "url": "https://www.ticketmaster.ie/mudrat-dublin-27-05-2026/event/1800645898CEAB15",
-      "image": "https://s1.ticketm.net/dam/a/480/cc6b755a-079c-4d86-bc76-ca787dabc480_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-      "date": "2026-05-27",
-      "time": "20:00:00",
-      "status": "onsale",
-      "venue": {
-        "name": "BELLOBAR",
-        "address": "1 PORTABELLO HARBOUR",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/bellobar-tickets-dublin/venue/199799"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Music",
-          "genre": "Hip-Hop/Rap"
-        }
-      ]
-    },
-    {
-      "id": "1AvOZbzGkXTVDP2",
-      "name": "Kassi Valazza",
-      "url": "https://www.ticketmaster.ie/kassi-valazza-dublin-27-05-2026/event/1800638FBFD3B94F",
-      "image": "https://s1.ticketm.net/dam/a/eed/e830cc80-0c9f-4dfb-b412-0326afcebeed_RETINA_PORTRAIT_16_9.jpg",
-      "date": "2026-05-27",
-      "time": "20:00:00",
-      "status": "cancelled",
-      "venue": {
-        "name": "Upstairs At Whelans",
-        "address": "Wexford Street",
-        "city": "Dublin",
-        "url": "https://www.ticketmaster.ie/upstairs-at-whelans-tickets-dublin/venue/198706"
-      },
-      "price": null,
-      "classifications": [
-        {
-          "segment": "Music",
-          "genre": "Folk"
-        }
-      ]
-    },
     {
       "id": "1AbZkCvGkdJumI9",
       "name": "Bloom 2026",
@@ -185,7 +9,7 @@
       "image": "https://s1.ticketm.net/dam/a/98c/acbc83a8-ce49-40b0-aa69-beced268298c_RETINA_PORTRAIT_16_9.jpg",
       "date": "2026-05-28",
       "time": "09:00:00",
-      "status": "onsale",
+      "status": "offsale",
       "venue": {
         "name": "Phoenix Park",
         "address": "Phoenix Park",
@@ -10999,6 +10823,182 @@
         {
           "segment": "Music",
           "genre": "Country"
+        }
+      ]
+    },
+    {
+      "id": "1AvOZbVGkDq-HaP",
+      "name": "Riverdance 30 - The New Generation",
+      "url": "https://www.ticketmaster.ie/riverdance-30-the-new-generation-dublin-18-08-2026/event/1800634EDD87C265",
+      "image": "https://s1.ticketm.net/dam/a/30c/fc3f4321-9589-445c-9e6a-ce7024e8530c_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "date": "2026-08-18",
+      "time": "19:30:00",
+      "status": "onsale",
+      "venue": {
+        "name": "Gaiety Theatre",
+        "address": "South King Street",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/gaiety-theatre-tickets-dublin/venue/198240"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Arts & Theatre",
+          "genre": "Dance"
+        }
+      ]
+    },
+    {
+      "id": "1kkZvNbzGA2hBmy",
+      "name": "Swan Lake - Ballet De Santiago",
+      "url": "https://www.ticketmaster.ie/swan-lake-ballet-de-santiago-dublin-18-08-2026/event/180063638F6FABB9",
+      "image": "https://s1.ticketm.net/dam/a/2a1/95e3849d-7363-4d40-8200-6bfaf6cb12a1_TABLET_LANDSCAPE_16_9.jpg",
+      "date": "2026-08-18",
+      "time": "19:30:00",
+      "status": "onsale",
+      "venue": {
+        "name": "Bord Gais Energy Theatre",
+        "address": "Grand Canal Square",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/bord-gais-energy-theatre-tickets-dublin/venue/198867"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Arts & Theatre",
+          "genre": "Dance"
+        }
+      ]
+    },
+    {
+      "id": "1AbZkodGkdpZrF7",
+      "name": "Chat Pile",
+      "url": "https://www.ticketmaster.ie/chat-pile-dublin-19-08-2026/event/18006443D601E204",
+      "image": "https://s1.ticketm.net/dam/a/137/fe63843d-2669-4182-8731-0a8c0de6a137_SOURCE",
+      "date": "2026-08-19",
+      "time": "19:30:00",
+      "status": "onsale",
+      "venue": {
+        "name": "The Button Factory",
+        "address": "Curved Street, Temple Bar",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/the-button-factory-tickets-dublin/venue/198299"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Music",
+          "genre": "Metal"
+        }
+      ]
+    },
+    {
+      "id": "1AvOZbVGkDqxian",
+      "name": "Riverdance 30 - The New Generation",
+      "url": "https://www.ticketmaster.ie/riverdance-30-the-new-generation-dublin-19-08-2026/event/1800634EDD8AC26A",
+      "image": "https://s1.ticketm.net/dam/a/30c/fc3f4321-9589-445c-9e6a-ce7024e8530c_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "date": "2026-08-19",
+      "time": "19:30:00",
+      "status": "onsale",
+      "venue": {
+        "name": "Gaiety Theatre",
+        "address": "South King Street",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/gaiety-theatre-tickets-dublin/venue/198240"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Arts & Theatre",
+          "genre": "Dance"
+        }
+      ]
+    },
+    {
+      "id": "1kkZvNbzGA2j1RZ",
+      "name": "Swan Lake - Ballet De Santiago",
+      "url": "https://www.ticketmaster.ie/swan-lake-ballet-de-santiago-dublin-19-08-2026/event/180063638F70ABC0",
+      "image": "https://s1.ticketm.net/dam/a/2a1/95e3849d-7363-4d40-8200-6bfaf6cb12a1_TABLET_LANDSCAPE_16_9.jpg",
+      "date": "2026-08-19",
+      "time": "19:30:00",
+      "status": "onsale",
+      "venue": {
+        "name": "Bord Gais Energy Theatre",
+        "address": "Grand Canal Square",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/bord-gais-energy-theatre-tickets-dublin/venue/198867"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Arts & Theatre",
+          "genre": "Dance"
+        }
+      ]
+    },
+    {
+      "id": "15vOZbtro-evg",
+      "name": "Bluey's Big Play",
+      "url": "https://www.ticketmaster.ie/blueys-big-play-dublin-20-08-2026/event/1800629791842075",
+      "image": "https://s1.ticketm.net/dam/a/80d/f686f422-4ca1-4835-807b-7ebe7771380d_TABLET_LANDSCAPE_16_9.jpg",
+      "date": "2026-08-20",
+      "time": "10:00:00",
+      "status": "onsale",
+      "venue": {
+        "name": "3Olympia Theatre",
+        "address": "73 Dame Street",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/3olympia-theatre-tickets-dublin/venue/198239"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Arts & Theatre",
+          "genre": "Children's Theatre"
+        }
+      ]
+    },
+    {
+      "id": "1AvOZbgGkBPguE1",
+      "name": "The Prodigy",
+      "url": "https://www.ticketmaster.ie/the-prodigy-dublin-20-08-2026/event/1800635EA5D4D9CA",
+      "image": "https://s1.ticketm.net/dam/a/58b/9df4dfd3-6b5b-47a3-8e5d-897776c2958b_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "date": "2026-08-20",
+      "time": "17:00:00",
+      "status": "onsale",
+      "venue": {
+        "name": "IMMA",
+        "address": "Royal Hospital Kilmainham ,Military Road",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/imma-tickets-dublin/venue/197560"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Music",
+          "genre": "Pop"
+        }
+      ]
+    },
+    {
+      "id": "1AbZkodGkdpZmF6",
+      "name": "Chat Pile",
+      "url": "https://www.ticketmaster.ie/chat-pile-dublin-20-08-2026/event/18006443D602E207",
+      "image": "https://s1.ticketm.net/dam/a/137/fe63843d-2669-4182-8731-0a8c0de6a137_SOURCE",
+      "date": "2026-08-20",
+      "time": "19:30:00",
+      "status": "onsale",
+      "venue": {
+        "name": "The Button Factory",
+        "address": "Curved Street, Temple Bar",
+        "city": "Dublin",
+        "url": "https://www.ticketmaster.ie/the-button-factory-tickets-dublin/venue/198299"
+      },
+      "price": null,
+      "classifications": [
+        {
+          "segment": "Music",
+          "genre": "Metal"
         }
       ]
     }
