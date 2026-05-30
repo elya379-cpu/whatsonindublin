@@ -4,4 +4,3 @@ __pycache__/
 .venv/
 _site/
 .jekyll-cache/
-Gemfile.lock
