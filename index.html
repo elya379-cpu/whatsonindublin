@@ -1,52 +1,103 @@
----
-layout: default
-title: What's On in Dublin
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What's On in Dublin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <span class="site-title">What's On in Dublin</span>
+  </header>
+  <main class="page-content">
+    <p class="subtitle" id="subtitle"></p>
+    <div class="events-grid" id="events-grid"></div>
+  </main>
+  <footer class="site-footer">
+    <p>Upcoming events in Dublin, powered by Ticketmaster</p>
+  </footer>
+  <script>
+    const DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-<p class="subtitle">Updated {{ site.data.events.generated_at | date: "%d %b %Y" }} &middot; {{ site.data.events.count }} events</p>
+    function formatDate(dateStr) {
+      if (!dateStr) return '';
+      const [y, m, d] = dateStr.split('-').map(Number);
+      const dt = new Date(y, m - 1, d);
+      return `${DAYS[dt.getDay()]} ${d} ${MONTHS[m - 1]} ${y}`;
+    }
 
-<div class="events-grid">
-  {% for event in site.data.events.events %}
-  <article class="event-card">
-    {% if event.image %}
-    <img src="{{ event.image }}" alt="{{ event.name | escape }}" loading="lazy">
-    {% else %}
-    <div class="no-image">No image</div>
-    {% endif %}
+    function formatGenerated(isoStr) {
+      const dt = new Date(isoStr);
+      const d = String(dt.getUTCDate()).padStart(2, '0');
+      return `${d} ${MONTHS[dt.getUTCMonth()]} ${dt.getUTCFullYear()}`;
+    }
 
-    <div class="card-body">
-      <h2>{{ event.name }}</h2>
+    function renderCard(event) {
+      const img = event.image
+        ? `<img src="${event.image}" alt="${event.name.replace(/"/g, '&quot;')}" loading="lazy">`
+        : `<div class="no-image">No image</div>`;
 
-      <p class="card-meta">
-        {% if event.date %}{{ event.date | date: "%a %-d %b %Y" }}{% endif %}
-        {% if event.time %}&middot; {{ event.time | slice: 0, 5 }}{% endif %}
-      </p>
+      const meta = [
+        event.date ? formatDate(event.date) : '',
+        event.time ? event.time.slice(0, 5) : '',
+      ].filter(Boolean).join(' · ');
 
-      {% if event.venue.name %}
-      <p class="card-venue">{{ event.venue.name }}</p>
-      {% endif %}
+      const genre = event.classifications?.[0]?.genre;
+      const genreTag = (genre && genre !== 'Undefined')
+        ? `<span class="genre-tag">${genre}</span>`
+        : '';
 
-      {% assign genre = event.classifications[0].genre %}
-      {% if genre and genre != "Undefined" %}
-      <span class="genre-tag">{{ genre }}</span>
-      {% endif %}
+      let price;
+      if (event.price) {
+        price = event.price.min === event.price.max
+          ? `&euro;${event.price.min}`
+          : `&euro;${event.price.min} &ndash; &euro;${event.price.max}`;
+      } else {
+        price = 'Check site for prices';
+      }
 
-      {% if event.price %}
-      <p class="card-price">
-        {% if event.price.min == event.price.max %}
-          &euro;{{ event.price.min }}
-        {% else %}
-          &euro;{{ event.price.min }} &ndash; &euro;{{ event.price.max }}
-        {% endif %}
-      </p>
-      {% else %}
-      <p class="card-price">Check site for prices</p>
-      {% endif %}
+      const link = event.url
+        ? `<a class="card-link" href="${event.url}" target="_blank" rel="noopener">Get tickets</a>`
+        : '';
 
-      {% if event.url %}
-      <a class="card-link" href="{{ event.url }}" target="_blank" rel="noopener">Get tickets</a>
-      {% endif %}
-    </div>
-  </article>
-  {% endfor %}
-</div>
+      return `
+        <article class="event-card">
+          ${img}
+          <div class="card-body">
+            <h2>${event.name}</h2>
+            ${meta ? `<p class="card-meta">${meta}</p>` : ''}
+            ${event.venue?.name ? `<p class="card-venue">${event.venue.name}</p>` : ''}
+            ${genreTag}
+            <p class="card-price">${price}</p>
+            ${link}
+          </div>
+        </article>`;
+    }
+
+    async function init() {
+      try {
+        const res = await fetch('data/events.json');
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+
+        document.getElementById('subtitle').textContent =
+          `Updated ${formatGenerated(data.generated_at)} · ${data.count} events`;
+
+        document.getElementById('events-grid').innerHTML =
+          data.events.map(renderCard).join('');
+      } catch (err) {
+        document.getElementById('events-grid').innerHTML =
+          `<p style="color:#888">Failed to load events.</p>`;
+        console.error(err);
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>
