@@ -18,7 +18,7 @@ if not API_KEY:
     sys.exit(1)
 
 BASE_URL = "https://app.ticketmaster.com/discovery/v2/events.json"
-OUTPUT_PATH = Path(__file__).parent / "data" / "events.json"
+OUTPUT_PATH = Path(__file__).parent.parent / "data" / "events.json"
 
 
 def fetch_events(page_size: int = 100, max_pages: int = 5) -> list[dict]:

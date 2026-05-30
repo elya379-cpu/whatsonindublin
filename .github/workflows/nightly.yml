@@ -16,12 +16,12 @@ jobs:
 
       - uses: astral-sh/setup-uv@v4
         with:
-          python-version-file: .python-version
+          python-version-file: scripts/.python-version
 
       - name: Fetch events
         env:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
-        run: uv run fetch_events.py
+        run: uv run --project scripts scripts/fetch_events.py
 
       - name: Commit updated events
         run: |
